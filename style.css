@@ -6,10 +6,6 @@
 
 body {
     font-family: sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
     justify-content: center;
     background: url('p.avif');
     background-size: cover;
@@ -17,3 +13,25 @@ body {
     overflow: hidden;
 }
 
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+
+#timer{
+    font-size: 70px;
+}
+#buttons button{
+font-size: 25px;
+margin: 0.2rem;
+padding: 0.8rem;
+border-radius: 0.5rem;
+cursor: pointer;
+}
